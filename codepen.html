@@ -1,0 +1,44 @@
+<html>
+	<head>
+			<link rel="stylesheet" href="style.css"/>
+			
+	</head>
+	<body>
+		<div class="cover">
+			<div class="left">
+				<form name="forma" action="submit.php">
+                <input type="text" id="naslov" name="naslov" placeholder="Title"/> <br/>
+				<textarea id="sadrzaj" name="sadrzaj" placeholder="Content"></textarea> <br/>
+				<input type="radio" id="rbCode" name="rb" value="Code">Code <br/>
+				<input type="radio" id="rbFile" name="rb" value="File">File <br/>
+				<input type="radio" id="rbText" name="rb"/> Text <br/>
+				<div class="hiddenCode">
+					<select name="codeList">
+					  <option value="htmlcss">Choose code...</option>
+					  <option value="htmlcss">HTML/CSS</option>
+					  <option value="javascript">JavaScript</option>
+					  <option value="php">PHP</option>
+					  <option value="sql">SQL</option>
+					  <option value="excel">Excel</option>
+					</select><br/>
+				</div>				
+				<div class="hiddenFile">
+					<input type="file" id="upload" name="upload"/> <br/>
+				</div><br/>				
+				<input type="submit" id="subForm" name="subForm" value="Submit"/>
+				</form>
+			</div>
+			<div class="right">
+                <iframe width="402" height="346" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=2A773816BC2E48A1%212636&authkey=%21AEtWqbD9OPVlL3U&em=2&AllowTyping=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+				<!--<iframe src="https://codesandbox.io/embed/rjnrzlv5oq" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>-->
+			</div>
+		</div>
+		<script src="script.js"></script>
+		<!-- codesandbox.io -->
+		<!-- <iframe src="https://paiza.io/projects/e/g-CWz6N9mYmVUkUawXIxkA?theme=twilight" width="100%" height="500" scrolling="no" seamless="seamless"></iframe>
+		<iframe src="https://paiza.io/projects/e/MyR5ux8_TL0Ql4hcTqegtA?theme=twilight" width="100%" height="500" scrolling="no" seamless="seamless"></iframe> -->
+		<!-- paiza.io -->
+		
+		<!-- <EMBED SRC="https://docs.google.com/document/d/1mvCYlyih_jzyp0Wlb1guM2KRK_WfzlAvowcvFhQ8Efc/edit?usp=sharing" HEIGHT="60" WIDTH="144"> -->
+	</body>
+</html>

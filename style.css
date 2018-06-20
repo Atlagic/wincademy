@@ -1,0 +1,65 @@
+.cover{
+    display: block;
+    width: 100%;
+    min-height: 100%;
+}
+.center{
+    display: block;
+    width: 34%;
+    min-height: 100%;
+	padding-top:28px;
+	margin:0 auto;
+}
+.order{
+	text-align:center;
+}
+.singleCenter{
+    display: block;
+    width: 80%;
+    min-height: 100%;
+	padding-top:50px;
+	margin:0 auto;
+}
+.hiddenCode{
+	pointer-events: none;
+	opacity:0;
+	transition:opacity 0.5s linear;	
+}
+.hiddenFile{	
+	pointer-events: none;
+	opacity:0;
+	transition:opacity 0.5s linear;	
+}
+.toggleCode{
+	pointer-events: auto;
+	opacity:1;
+}
+.toggleFile{
+	pointer-events: auto;	
+	opacity:1;
+}
+.errMsg{
+	display:block;
+	color:red;
+	width:109px;
+	margin:0 auto;
+	margin-top:50px;
+	font-weight:bold;
+}
+.succMsg{
+	display:block;
+	color:green;
+	width:148px;
+	margin:0 auto;
+	margin-top:50px;
+	font-weight:bold;
+}
+.examples{
+	display:block;
+	width:160px;
+	margin:0 auto;
+	
+}
+.jumbotron{
+	background-color:#e9ecef47 !important;
+}
