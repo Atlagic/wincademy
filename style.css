@@ -63,3 +63,17 @@
 .jumbotron{
 	background-color:#e9ecef47 !important;
 }
+.exChb{
+	width:182px !important;
+	display:block !important;
+	margin:0 auto !important;
+	margin-top:25px !important;
+}
+.isDisabled {
+  pointer-events: none;
+  color: currentColor !important;
+  cursor: not-allowed !important;
+  opacity: 0.5 !important;
+  text-decoration: none !important;
+  display:none !important;
+}
